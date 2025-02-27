@@ -3,8 +3,13 @@ def roll_call_dwarves(dwarves):
         for dwarf in dwarves:
             print(f"{dwarves.index(dwarf)+1}. {dwarf}")
 
-def summon_captain_planet():
-    pass
+def summon_captain_planet(planets):
+    new_planets = []
+    if planets:
+        for planet in planets:
+            new_planets.append(f"{planet.capitalize()}!")
+    print(new_planets)
+    return new_planets
 
 def long_planeteer_calls():
     pass
