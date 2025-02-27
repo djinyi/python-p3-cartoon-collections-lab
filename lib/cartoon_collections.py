@@ -11,8 +11,11 @@ def summon_captain_planet(planets):
     print(new_planets)
     return new_planets
 
-def long_planeteer_calls():
-    pass
+def long_planeteer_calls(list):
+    if list:
+        print(len(list) == 4)
+    return len(list) == 4
+
 
 def find_the_cheese():
     pass
